@@ -1,0 +1,210 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:2N7002 Q9
+U 1 1 60953BA7
+P 3300 4000
+AR Path="/60952E6F/60953BA7" Ref="Q9"  Part="1" 
+AR Path="/6097174B/60953BA7" Ref="Q?"  Part="1" 
+F 0 "Q?" H 3504 4046 50  0000 L CNN
+F 1 "2N7002" H 3504 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3500 3925 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 3300 4000 50  0001 L CNN
+F 4 "C8545" H 3300 4000 50  0001 C CNN "LCSC"
+	1    3300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q8
+U 1 1 609545B2
+P 3300 3200
+AR Path="/60952E6F/609545B2" Ref="Q8"  Part="1" 
+AR Path="/6097174B/609545B2" Ref="Q?"  Part="1" 
+F 0 "Q?" H 3505 3154 50  0000 L CNN
+F 1 "LBSS84LT1G" H 3505 3245 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3500 3300 50  0001 C CNN
+F 3 "~" H 3300 3200 50  0001 C CNN
+F 4 "C8492" H 3300 3200 50  0001 C CNN "LCSC"
+	1    3300 3200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 60954F7A
+P 3600 3550
+AR Path="/60952E6F/60954F7A" Ref="R15"  Part="1" 
+AR Path="/6097174B/60954F7A" Ref="R?"  Part="1" 
+F 0 "R?" V 3393 3550 50  0000 C CNN
+F 1 "33R" V 3484 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 3550 50  0001 C CNN
+F 3 "~" H 3600 3550 50  0001 C CNN
+F 4 "C23140" H 3600 3550 50  0001 C CNN "LCSC"
+	1    3600 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 609554C2
+P 3600 3750
+AR Path="/60952E6F/609554C2" Ref="R16"  Part="1" 
+AR Path="/6097174B/609554C2" Ref="R?"  Part="1" 
+F 0 "R?" V 3500 3750 50  0000 C CNN
+F 1 "33R" V 3700 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 3750 50  0001 C CNN
+F 3 "~" H 3600 3750 50  0001 C CNN
+F 4 "C23140" H 3600 3750 50  0001 C CNN "LCSC"
+	1    3600 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 3400 3400 3550
+Wire Wire Line
+	3400 3550 3450 3550
+Wire Wire Line
+	3450 3750 3400 3750
+Wire Wire Line
+	3400 3750 3400 3800
+Wire Wire Line
+	3750 3750 3800 3750
+Wire Wire Line
+	3800 3550 3750 3550
+Wire Wire Line
+	3800 3550 3800 3650
+Wire Wire Line
+	3100 3200 3050 3200
+Wire Wire Line
+	3050 4000 3100 4000
+$Comp
+L Transistor_FET:2N7002 Q7
+U 1 1 6095D3BF
+P 2500 3800
+AR Path="/60952E6F/6095D3BF" Ref="Q7"  Part="1" 
+AR Path="/6097174B/6095D3BF" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2704 3846 50  0000 L CNN
+F 1 "2N7002" H 2704 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2700 3725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF" H 2500 3800 50  0001 L CNN
+F 4 "C8545" H 2500 3800 50  0001 C CNN "LCSC"
+	1    2500 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4200 3400 4250
+$Comp
+L Device:R R?
+U 1 1 60962EC9
+P 2600 3150
+AR Path="/5FDCBED8/60962EC9" Ref="R?"  Part="1" 
+AR Path="/60952E6F/60962EC9" Ref="R14"  Part="1" 
+AR Path="/6097174B/60962EC9" Ref="R?"  Part="1" 
+F 0 "R?" V 2393 3150 50  0000 C CNN
+F 1 "1kR" V 2484 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2530 3150 50  0001 C CNN
+F 3 "~" H 2600 3150 50  0001 C CNN
+F 4 "C11702" V 2600 3150 50  0001 C CNN "LCSC"
+	1    2600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0138
+U 1 1 609638C0
+P 2600 2900
+AR Path="/60952E6F/609638C0" Ref="#PWR0138"  Part="1" 
+AR Path="/6097174B/609638C0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2600 2750 50  0001 C CNN
+F 1 "+5V" H 2615 3073 50  0000 C CNN
+F 2 "" H 2600 2900 50  0001 C CNN
+F 3 "" H 2600 2900 50  0001 C CNN
+	1    2600 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2950 3400 3000
+$Comp
+L power:GND #PWR0139
+U 1 1 609649C8
+P 2600 4300
+AR Path="/60952E6F/609649C8" Ref="#PWR0139"  Part="1" 
+AR Path="/6097174B/609649C8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2600 4050 50  0001 C CNN
+F 1 "GND" H 2605 4127 50  0000 C CNN
+F 2 "" H 2600 4300 50  0001 C CNN
+F 3 "" H 2600 4300 50  0001 C CNN
+	1    2600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4300 2600 4250
+$Comp
+L Device:R R?
+U 1 1 60968798
+P 2250 4050
+AR Path="/5FBBCA4E/60968798" Ref="R?"  Part="1" 
+AR Path="/60952E6F/60968798" Ref="R13"  Part="1" 
+AR Path="/6097174B/60968798" Ref="R?"  Part="1" 
+F 0 "R?" H 2320 4096 50  0000 L CNN
+F 1 "100kR" H 2320 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2180 4050 50  0001 C CNN
+F 3 "~" H 2250 4050 50  0001 C CNN
+F 4 "C25741" H 2250 4050 50  0001 C CNN "LCSC"
+	1    2250 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3200 3050 3450
+Wire Wire Line
+	2600 2900 2600 2950
+Wire Wire Line
+	2600 2950 3400 2950
+Connection ~ 2600 2950
+Wire Wire Line
+	2600 2950 2600 3000
+Wire Wire Line
+	2600 3450 3050 3450
+Connection ~ 2600 3450
+Wire Wire Line
+	2600 3450 2600 3300
+Connection ~ 3050 3450
+Wire Wire Line
+	3050 3450 3050 4000
+Wire Wire Line
+	2600 3450 2600 3600
+Wire Wire Line
+	2250 4250 2250 4200
+Wire Wire Line
+	2250 4250 2600 4250
+Connection ~ 2600 4250
+Wire Wire Line
+	2600 4250 3400 4250
+Wire Wire Line
+	2600 4000 2600 4250
+Wire Wire Line
+	2300 3800 2250 3800
+Wire Wire Line
+	2250 3800 2250 3900
+Text HLabel 3850 3650 2    50   Output ~ 0
+OUT
+Wire Wire Line
+	3850 3650 3800 3650
+Connection ~ 3800 3650
+Wire Wire Line
+	3800 3650 3800 3750
+Text HLabel 2200 3800 0    50   Input ~ 0
+IN
+Wire Wire Line
+	2200 3800 2250 3800
+Connection ~ 2250 3800
+$EndSCHEMATC
