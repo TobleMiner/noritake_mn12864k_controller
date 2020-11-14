@@ -208,6 +208,23 @@ X SWO 6 500 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_TestPoint
+#
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_USB_C_Receptacle_USB2.0
 #
 DEF Connector_USB_C_Receptacle_USB2.0 J 0 40 Y Y 1 F N
@@ -304,6 +321,28 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_D_Schottky
+#
+DEF Device_D_Schottky D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D_Schottky" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_D_Zener
 #
 DEF Device_D_Zener D 0 40 N N 1 F N
@@ -365,6 +404,29 @@ C -40 0 20 0 1 0 N
 C 40 0 20 0 1 0 N
 X 1 1 -100 0 40 R 50 50 0 1 P
 X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L
+#
+DEF Device_L L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -548,6 +610,41 @@ X VDD 64 200 1800 100 D 50 50 1 1 W
 X NRST 7 -700 1600 100 R 50 50 1 1 I
 X PC0 8 -700 -200 100 R 50 50 1 1 B
 X PC1 9 -700 -300 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Power_Management_XLSEMI_XL6007E1
+#
+DEF Power_Management_XLSEMI_XL6007E1 U 0 40 Y Y 1 F N
+F0 "U" -300 300 50 H V C CNN
+F1 "Power_Management_XLSEMI_XL6007E1" 0 0 50 H V C CNN
+F2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "C73334" 0 0 50 H I C CNN "LCSC"
+DRAW
+S -350 250 350 -350 0 1 0 f
+X EN 1 -450 -100 100 R 50 50 1 1 I
+X VIN 2 -450 100 100 R 50 50 1 1 W
+X FB 3 450 -150 100 L 50 50 1 1 I
+X SW 5 450 100 100 L 50 50 1 1 O
+X SW 6 450 100 100 L 50 50 1 1 P N
+X GND 7 0 -450 100 U 50 50 1 1 W
+X GND 8 0 -450 100 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
