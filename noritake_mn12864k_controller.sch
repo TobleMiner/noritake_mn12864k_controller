@@ -1747,4 +1747,6 @@ Wire Wire Line
 Connection ~ 14900 4000
 Wire Wire Line
 	14900 3550 14900 3450
+Text Notes 16950 5100 0    100  ~ 20
+TODO: PA4, PA5 not 5V tolerant!
 $EndSCHEMATC
