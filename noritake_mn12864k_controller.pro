@@ -1,4 +1,4 @@
-update=Fr 20 Nov 2020 10:33:15 CET
+update=Fr 20 Nov 2020 11:47:05 CET
 version=1
 last_client=kicad
 [general]
@@ -36,8 +36,8 @@ TrackWidth5=1
 TrackWidth6=2
 ViaDiameter1=0.45
 ViaDrill1=0.2
-dPairWidth1=0.2
-dPairGap1=0.25
+dPairWidth1=0.09
+dPairGap1=0.5
 dPairViaGap1=0.25
 SilkLineWidth=0.12
 SilkTextSizeV=1
@@ -238,8 +238,8 @@ ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
+dPairWidth=0.09
+dPairGap=0.5
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=HV
