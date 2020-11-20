@@ -1,4 +1,4 @@
-update=Sa 14 Nov 2020 05:39:53 CET
+update=Fr 20 Nov 2020 10:33:15 CET
 version=1
 last_client=kicad
 [general]
@@ -68,11 +68,11 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=VCC
+Name=GND
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=GND
+Name=Power
 Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
@@ -233,6 +233,17 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.09
+TrackWidth=0.09
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=HV
+Clearance=0.5
 TrackWidth=0.09
 ViaDiameter=0.45
 ViaDrill=0.2
