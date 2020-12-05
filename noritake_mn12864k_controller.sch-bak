@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 7
 Title ""
 Date ""
-Rev ""
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -319,6 +319,7 @@ F 0 "U8" H 2800 4000 50  0000 C CNN
 F 1 "SRV05-4" H 2750 3100 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3700 3100 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 3000 3550 50  0001 C CNN
+F 4 "C85364" H 3000 3550 50  0001 C CNN "LCSC"
 	1    3000 3550
 	1    0    0    -1  
 $EndComp
@@ -2027,6 +2028,7 @@ F 0 "U10" H 6650 2600 50  0000 C CNN
 F 1 "SRV05-4" H 6600 1700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7550 1700 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 6850 2150 50  0001 C CNN
+F 4 "C85364" H 6850 2150 50  0001 C CNN "LCSC"
 	1    6850 2150
 	1    0    0    -1  
 $EndComp
@@ -2038,6 +2040,7 @@ F 0 "U11" H 8150 2600 50  0000 C CNN
 F 1 "SRV05-4" H 8100 1700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 9050 1700 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 8350 2150 50  0001 C CNN
+F 4 "C85364" H 8350 2150 50  0001 C CNN "LCSC"
 	1    8350 2150
 	1    0    0    -1  
 $EndComp
@@ -2081,6 +2084,7 @@ F 0 "U12" H 9750 2600 50  0000 C CNN
 F 1 "SRV05-4" H 9700 1700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 10650 1700 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 9950 2150 50  0001 C CNN
+F 4 "C85364" H 9950 2150 50  0001 C CNN "LCSC"
 	1    9950 2150
 	1    0    0    -1  
 $EndComp

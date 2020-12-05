@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 7
 Title ""
 Date ""
-Rev ""
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""
