@@ -4,4 +4,5 @@
   (lib (name Transformer_Würth)(type KiCad)(uri ${KIPRJMOD}/lib/Transformer_Würth.pretty)(options "")(descr ""))
   (lib (name VFD_Noritake)(type KiCad)(uri ${KIPRJMOD}/lib/VFD_Noritake.pretty)(options "")(descr ""))
   (lib (name Connector_FFC)(type KiCad)(uri ${KIPRJMOD}/lib/Connector_FFC.pretty)(options "")(descr ""))
+  (lib (name Perforation)(type KiCad)(uri ${KIPRJMOD}/lib/Perforation.pretty)(options "")(descr ""))
 )
