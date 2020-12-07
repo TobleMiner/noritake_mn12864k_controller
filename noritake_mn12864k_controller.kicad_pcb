@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 36)
-    (tracks 1565)
+    (tracks 1566)
     (zones 0)
     (modules 150)
     (nets 135)
@@ -6690,6 +6690,7 @@
   (via (at 152.7 103.4) (size 0.45) (drill 0.2) (layers F.Cu B.Cu) (net 2))
   (via (at 152.7 108.4) (size 0.45) (drill 0.2) (layers F.Cu B.Cu) (net 2))
   (via (at 156.3 107.1) (size 0.45) (drill 0.2) (layers F.Cu B.Cu) (net 2))
+  (via (at 136.2 107.2) (size 0.45) (drill 0.2) (layers F.Cu B.Cu) (net 2))
   (segment (start 157.8 112.4) (end 157.8 113) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 175.45 108.867) (end 175.45 103.475) (width 1) (layer F.Cu) (net 5))
   (segment (start 174.65 110.55) (end 175.45 109.75) (width 0.5) (layer F.Cu) (net 5))
