@@ -1910,116 +1910,116 @@ Wire Wire Line
 $Comp
 L Connector_Generic_MountingPin:Conn_01x18_MountingPin J4
 U 1 1 5FB7AD7C
-P 8750 4050
-F 0 "J4" H 8838 3964 50  0000 L CNN
-F 1 "Conn_01x18" H 8838 3873 50  0000 L CNN
-F 2 "Connector_FFC:MINTRON-LW05202-18" H 8750 4050 50  0001 C CNN
-F 3 "~" H 8750 4050 50  0001 C CNN
-F 4 "C375917" H 8750 4050 50  0001 C CNN "LCSC"
-	1    8750 4050
+P 7250 4050
+F 0 "J4" H 7338 3964 50  0000 L CNN
+F 1 "Conn_01x18" H 7338 3873 50  0000 L CNN
+F 2 "Connector_FFC:MINTRON-LW05202-18" H 7250 4050 50  0001 C CNN
+F 3 "~" H 7250 4050 50  0001 C CNN
+F 4 "C375917" H 7250 4050 50  0001 C CNN "LCSC"
+	1    7250 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0173
 U 1 1 5FB7C8CF
-P 8500 5250
-F 0 "#PWR0173" H 8500 5000 50  0001 C CNN
-F 1 "GND" H 8505 5077 50  0000 C CNN
-F 2 "" H 8500 5250 50  0001 C CNN
-F 3 "" H 8500 5250 50  0001 C CNN
-	1    8500 5250
+P 7000 5250
+F 0 "#PWR0173" H 7000 5000 50  0001 C CNN
+F 1 "GND" H 7005 5077 50  0000 C CNN
+F 2 "" H 7000 5250 50  0001 C CNN
+F 3 "" H 7000 5250 50  0001 C CNN
+	1    7000 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 4950 8550 4950
+	7000 4950 7050 4950
 Wire Wire Line
-	8550 3250 8150 3250
+	7050 3250 6650 3250
 $Comp
 L power:GND #PWR0174
 U 1 1 5FBAC9D4
-P 8150 5250
-F 0 "#PWR0174" H 8150 5000 50  0001 C CNN
-F 1 "GND" H 8155 5077 50  0000 C CNN
-F 2 "" H 8150 5250 50  0001 C CNN
-F 3 "" H 8150 5250 50  0001 C CNN
-	1    8150 5250
+P 6650 5250
+F 0 "#PWR0174" H 6650 5000 50  0001 C CNN
+F 1 "GND" H 6655 5077 50  0000 C CNN
+F 2 "" H 6650 5250 50  0001 C CNN
+F 3 "" H 6650 5250 50  0001 C CNN
+	1    6650 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 3350 8250 3350
-Text Label 8250 3350 0    50   ~ 0
+	7050 3350 6750 3350
+Text Label 6750 3350 0    50   ~ 0
 DBG00
 Wire Wire Line
-	8550 3450 8250 3450
-Text Label 8250 3450 0    50   ~ 0
+	7050 3450 6750 3450
+Text Label 6750 3450 0    50   ~ 0
 DBG01
 Wire Wire Line
-	8550 3550 8250 3550
-Text Label 8250 3550 0    50   ~ 0
+	7050 3550 6750 3550
+Text Label 6750 3550 0    50   ~ 0
 DBG02
 Wire Wire Line
-	8550 3650 8250 3650
-Text Label 8250 3650 0    50   ~ 0
+	7050 3650 6750 3650
+Text Label 6750 3650 0    50   ~ 0
 DBG03
 Wire Wire Line
-	8550 3750 8250 3750
-Text Label 8250 3750 0    50   ~ 0
+	7050 3750 6750 3750
+Text Label 6750 3750 0    50   ~ 0
 DBG04
 Wire Wire Line
-	8550 3850 8250 3850
-Text Label 8250 3850 0    50   ~ 0
+	7050 3850 6750 3850
+Text Label 6750 3850 0    50   ~ 0
 DBG05
 Wire Wire Line
-	8550 3950 8250 3950
-Text Label 8250 3950 0    50   ~ 0
+	7050 3950 6750 3950
+Text Label 6750 3950 0    50   ~ 0
 DBG06
 Wire Wire Line
-	8550 4050 8250 4050
-Text Label 8250 4050 0    50   ~ 0
+	7050 4050 6750 4050
+Text Label 6750 4050 0    50   ~ 0
 DBG07
 Wire Wire Line
-	8550 4150 8250 4150
-Text Label 8250 4150 0    50   ~ 0
+	7050 4150 6750 4150
+Text Label 6750 4150 0    50   ~ 0
 DBG08
 Wire Wire Line
-	8550 4250 8250 4250
-Text Label 8250 4250 0    50   ~ 0
+	7050 4250 6750 4250
+Text Label 6750 4250 0    50   ~ 0
 DBG09
 Wire Wire Line
-	8550 4350 8250 4350
-Text Label 8250 4350 0    50   ~ 0
+	7050 4350 6750 4350
+Text Label 6750 4350 0    50   ~ 0
 DBG10
 Wire Wire Line
-	8550 4450 8250 4450
-Text Label 8250 4450 0    50   ~ 0
+	7050 4450 6750 4450
+Text Label 6750 4450 0    50   ~ 0
 DBG11
 Wire Wire Line
-	8550 4550 8250 4550
-Text Label 8250 4550 0    50   ~ 0
+	7050 4550 6750 4550
+Text Label 6750 4550 0    50   ~ 0
 DBG12
 Wire Wire Line
-	8550 4650 8250 4650
-Text Label 8250 4650 0    50   ~ 0
+	7050 4650 6750 4650
+Text Label 6750 4650 0    50   ~ 0
 DBG13
 Wire Wire Line
-	8550 4750 8250 4750
-Text Label 8250 4750 0    50   ~ 0
+	7050 4750 6750 4750
+Text Label 6750 4750 0    50   ~ 0
 DBG14
 Wire Wire Line
-	8550 4850 8250 4850
-Text Label 8250 4850 0    50   ~ 0
+	7050 4850 6750 4850
+Text Label 6750 4850 0    50   ~ 0
 DBG15
 Wire Wire Line
-	8500 4950 8500 5200
+	7000 4950 7000 5200
 Wire Wire Line
-	8150 3250 8150 5250
+	6650 3250 6650 5250
 Wire Wire Line
-	8750 5150 8750 5200
+	7250 5150 7250 5200
 Wire Wire Line
-	8750 5200 8500 5200
-Connection ~ 8500 5200
+	7250 5200 7000 5200
+Connection ~ 7000 5200
 Wire Wire Line
-	8500 5200 8500 5250
+	7000 5200 7000 5250
 $Comp
 L Power_Protection:SRV05-4 U10
 U 1 1 5FD1D616
@@ -2173,4 +2173,356 @@ F 3 "" H 9950 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9950 2700 9950 2650
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 60143BFB
+P 10550 6000
+F 0 "H8" H 10650 6046 50  0000 L CNN
+F 1 "MountingHole" H 10650 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10550 6000 50  0001 C CNN
+F 3 "~" H 10550 6000 50  0001 C CNN
+	1    10550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60158CF4
+P 10550 5800
+F 0 "H7" H 10650 5846 50  0000 L CNN
+F 1 "MountingHole" H 10650 5755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10550 5800 50  0001 C CNN
+F 3 "~" H 10550 5800 50  0001 C CNN
+	1    10550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6016DE50
+P 10550 5600
+F 0 "H6" H 10650 5646 50  0000 L CNN
+F 1 "MountingHole" H 10650 5555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10550 5600 50  0001 C CNN
+F 3 "~" H 10550 5600 50  0001 C CNN
+	1    10550 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 6016DE56
+P 10550 5400
+F 0 "H5" H 10650 5446 50  0000 L CNN
+F 1 "MountingHole" H 10650 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10550 5400 50  0001 C CNN
+F 3 "~" H 10550 5400 50  0001 C CNN
+	1    10550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H36
+U 1 1 601AB3EA
+P 10550 5000
+F 0 "H36" H 10650 5046 50  0000 L CNN
+F 1 "Perforation" H 10650 4955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 10550 5000 50  0001 C CNN
+F 3 "~" H 10550 5000 50  0001 C CNN
+	1    10550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H35
+U 1 1 601C073A
+P 10550 4800
+F 0 "H35" H 10650 4846 50  0000 L CNN
+F 1 "Perforation" H 10650 4755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 10550 4800 50  0001 C CNN
+F 3 "~" H 10550 4800 50  0001 C CNN
+	1    10550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H34
+U 1 1 601D5707
+P 10550 4600
+F 0 "H34" H 10650 4646 50  0000 L CNN
+F 1 "Perforation" H 10650 4555 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 10550 4600 50  0001 C CNN
+F 3 "~" H 10550 4600 50  0001 C CNN
+	1    10550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H33
+U 1 1 601EB01C
+P 10550 4400
+F 0 "H33" H 10650 4446 50  0000 L CNN
+F 1 "Perforation" H 10650 4355 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 10550 4400 50  0001 C CNN
+F 3 "~" H 10550 4400 50  0001 C CNN
+	1    10550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H32
+U 1 1 601EB022
+P 10550 4200
+F 0 "H32" H 10650 4246 50  0000 L CNN
+F 1 "Perforation" H 10650 4155 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 10550 4200 50  0001 C CNN
+F 3 "~" H 10550 4200 50  0001 C CNN
+	1    10550 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H31
+U 1 1 601EB028
+P 10550 4000
+F 0 "H31" H 10650 4046 50  0000 L CNN
+F 1 "Perforation" H 10650 3955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 10550 4000 50  0001 C CNN
+F 3 "~" H 10550 4000 50  0001 C CNN
+	1    10550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H30
+U 1 1 60200BD8
+P 10550 3800
+F 0 "H30" H 10650 3846 50  0000 L CNN
+F 1 "Perforation" H 10650 3755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 10550 3800 50  0001 C CNN
+F 3 "~" H 10550 3800 50  0001 C CNN
+	1    10550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H29
+U 1 1 60216E14
+P 9850 5000
+F 0 "H29" H 9950 5046 50  0000 L CNN
+F 1 "Perforation" H 9950 4955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 5000 50  0001 C CNN
+F 3 "~" H 9850 5000 50  0001 C CNN
+	1    9850 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H28
+U 1 1 60216E1A
+P 9850 4800
+F 0 "H28" H 9950 4846 50  0000 L CNN
+F 1 "Perforation" H 9950 4755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 4800 50  0001 C CNN
+F 3 "~" H 9850 4800 50  0001 C CNN
+	1    9850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H27
+U 1 1 60216E20
+P 9850 4600
+F 0 "H27" H 9950 4646 50  0000 L CNN
+F 1 "Perforation" H 9950 4555 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 4600 50  0001 C CNN
+F 3 "~" H 9850 4600 50  0001 C CNN
+	1    9850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H26
+U 1 1 60216E26
+P 9850 4400
+F 0 "H26" H 9950 4446 50  0000 L CNN
+F 1 "Perforation" H 9950 4355 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 4400 50  0001 C CNN
+F 3 "~" H 9850 4400 50  0001 C CNN
+	1    9850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H25
+U 1 1 60216E2C
+P 9850 4200
+F 0 "H25" H 9950 4246 50  0000 L CNN
+F 1 "Perforation" H 9950 4155 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 4200 50  0001 C CNN
+F 3 "~" H 9850 4200 50  0001 C CNN
+	1    9850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H24
+U 1 1 60216E32
+P 9850 4000
+F 0 "H24" H 9950 4046 50  0000 L CNN
+F 1 "Perforation" H 9950 3955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 4000 50  0001 C CNN
+F 3 "~" H 9850 4000 50  0001 C CNN
+	1    9850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H23
+U 1 1 60216E38
+P 9850 3800
+F 0 "H23" H 9950 3846 50  0000 L CNN
+F 1 "Perforation" H 9950 3755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 3800 50  0001 C CNN
+F 3 "~" H 9850 3800 50  0001 C CNN
+	1    9850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H22
+U 1 1 60241EAE
+P 9150 5000
+F 0 "H22" H 9250 5046 50  0000 L CNN
+F 1 "Perforation" H 9250 4955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 5000 50  0001 C CNN
+F 3 "~" H 9150 5000 50  0001 C CNN
+	1    9150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H21
+U 1 1 60241EB4
+P 9150 4800
+F 0 "H21" H 9250 4846 50  0000 L CNN
+F 1 "Perforation" H 9250 4755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 4800 50  0001 C CNN
+F 3 "~" H 9150 4800 50  0001 C CNN
+	1    9150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H20
+U 1 1 60241EBA
+P 9150 4600
+F 0 "H20" H 9250 4646 50  0000 L CNN
+F 1 "Perforation" H 9250 4555 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 4600 50  0001 C CNN
+F 3 "~" H 9150 4600 50  0001 C CNN
+	1    9150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H19
+U 1 1 60241EC0
+P 9150 4400
+F 0 "H19" H 9250 4446 50  0000 L CNN
+F 1 "Perforation" H 9250 4355 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 4400 50  0001 C CNN
+F 3 "~" H 9150 4400 50  0001 C CNN
+	1    9150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H18
+U 1 1 60241EC6
+P 9150 4200
+F 0 "H18" H 9250 4246 50  0000 L CNN
+F 1 "Perforation" H 9250 4155 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 4200 50  0001 C CNN
+F 3 "~" H 9150 4200 50  0001 C CNN
+	1    9150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H17
+U 1 1 60241ECC
+P 9150 4000
+F 0 "H17" H 9250 4046 50  0000 L CNN
+F 1 "Perforation" H 9250 3955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 4000 50  0001 C CNN
+F 3 "~" H 9150 4000 50  0001 C CNN
+	1    9150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H16
+U 1 1 60241ED2
+P 9150 3800
+F 0 "H16" H 9250 3846 50  0000 L CNN
+F 1 "Perforation" H 9250 3755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 3800 50  0001 C CNN
+F 3 "~" H 9150 3800 50  0001 C CNN
+	1    9150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 60257FE8
+P 8450 5000
+F 0 "H15" H 8550 5046 50  0000 L CNN
+F 1 "Perforation" H 8550 4955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 5000 50  0001 C CNN
+F 3 "~" H 8450 5000 50  0001 C CNN
+	1    8450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H14
+U 1 1 60257FEE
+P 8450 4800
+F 0 "H14" H 8550 4846 50  0000 L CNN
+F 1 "Perforation" H 8550 4755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 4800 50  0001 C CNN
+F 3 "~" H 8450 4800 50  0001 C CNN
+	1    8450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 60257FF4
+P 8450 4600
+F 0 "H13" H 8550 4646 50  0000 L CNN
+F 1 "Perforation" H 8550 4555 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 4600 50  0001 C CNN
+F 3 "~" H 8450 4600 50  0001 C CNN
+	1    8450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 60257FFA
+P 8450 4400
+F 0 "H12" H 8550 4446 50  0000 L CNN
+F 1 "Perforation" H 8550 4355 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 4400 50  0001 C CNN
+F 3 "~" H 8450 4400 50  0001 C CNN
+	1    8450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 60258000
+P 8450 4200
+F 0 "H11" H 8550 4246 50  0000 L CNN
+F 1 "Perforation" H 8550 4155 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 4200 50  0001 C CNN
+F 3 "~" H 8450 4200 50  0001 C CNN
+	1    8450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 60258006
+P 8450 4000
+F 0 "H10" H 8550 4046 50  0000 L CNN
+F 1 "Perforation" H 8550 3955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 4000 50  0001 C CNN
+F 3 "~" H 8450 4000 50  0001 C CNN
+	1    8450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 6025800C
+P 8450 3800
+F 0 "H9" H 8550 3846 50  0000 L CNN
+F 1 "Perforation" H 8550 3755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 3800 50  0001 C CNN
+F 3 "~" H 8450 3800 50  0001 C CNN
+	1    8450 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
