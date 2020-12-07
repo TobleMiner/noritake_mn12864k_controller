@@ -1243,4 +1243,6 @@ Wire Wire Line
 	4750 1950 5150 1950
 Connection ~ 5150 1550
 Connection ~ 5150 2350
+Connection ~ 4750 1550
+Connection ~ 4750 2350
 $EndSCHEMATC

@@ -99,7 +99,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "fab"))
+      (outputdirectory ""))
   )
 
   (net 0 "")
@@ -3747,7 +3747,7 @@
     (fp_text reference C29 (at 0 -1.68) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10uF (at 0 1.68) (layer F.Fab)
+    (fp_text value "10uF LV" (at 0 1.68) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.7 0.98) (end -1.7 0.98) (layer F.CrtYd) (width 0.05))
@@ -3783,7 +3783,7 @@
     (fp_text reference C28 (at 0 -1.68) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10uF (at 0 1.68) (layer F.Fab)
+    (fp_text value "10uF LV" (at 0 1.68) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.7 0.98) (end -1.7 0.98) (layer F.CrtYd) (width 0.05))
