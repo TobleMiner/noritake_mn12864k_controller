@@ -1,4 +1,4 @@
-update=Sa 21 Nov 2020 11:04:23 CET
+update=Mo 07 Dez 2020 12:32:49 CET
 version=1
 last_client=kicad
 [general]
@@ -251,4 +251,15 @@ uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=MV
+Clearance=0.25
+TrackWidth=0.09
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.09
+dPairGap=0.5
 dPairViaGap=0.25
