@@ -2525,4 +2525,8 @@ F 3 "~" H 8450 3800 50  0001 C CNN
 	1    8450 3800
 	1    0    0    -1  
 $EndComp
+Text Label 1300 1400 2    50   ~ 0
+ADDR0
+Text Label 1300 1500 2    50   ~ 0
+ADDR1
 $EndSCHEMATC
